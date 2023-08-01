@@ -1,0 +1,71 @@
+// .clock {
+//     display: flex;
+//     flex-wrap: wrap;
+//     flex: 1;
+//     background-color: white;
+
+//     &__item {
+//         text-align: center;
+//         font-size: 124px;
+//         font-weight: bold;
+//         flex: 1;
+//         min-width: 300px;
+//         line-height: 200%;
+//         display: flex;
+//         align-items: center;
+//         justify-content: center;
+//         position: relative;
+//         transition: 1s;
+//         span {
+//             border: 1px solid black;
+//             padding: 5px;
+//             border-radius: 5px;
+//             box-shadow: 0px 0px 5px black;
+//             width: 90%;
+//         }
+//         &::after {
+//             position: absolute;
+//             top: 10px;
+//             left: 10px;
+//             display: block;
+//             font-size: 32px;
+//             line-height: 100%;
+//             border: 1px solid black;
+//             padding: 5px;
+//             border-radius: 5px;
+//             box-shadow: 2px 1px 3px black;
+//         }
+//     }
+// }
+// .item-year {
+//     &::after {
+//         content: "Year";
+//     }
+// }
+// .item-days {
+//     &::after {
+//         content: "Days";
+//     }
+// }
+// .item-hours {
+//     &::after {
+//         content: "Hours";
+//     }
+// }
+// .item-minutes {
+//     &::after {
+//         content: "Minutes";
+//     }
+// }
+// .item-seconds {
+//     &::after {
+//         content: "Seconds";
+//     }
+// }
+
+// .fade {
+//     color: lightgrey;
+//     background-color: lightgrey;
+//     transform: rotatex(180deg);
+//     transition: transform 1s;
+// }

@@ -1,0 +1,348 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta
+			http-equiv="X-UA-Compatible"
+			content="IE=edge"
+		/>
+		<meta
+			name="viewport"
+			content="width=device-width, initial-scale=1.0"
+		/>
+		<link
+			rel="stylesheet"
+			href="style.css"
+		/>
+
+		<title>windows XP JS Nikita</title>
+	</head>
+
+	<body>
+		<div class="wrapper">
+			<!-- 
+        <div class="box">
+            <div class="box__item">1</div>
+        </div>
+        <button type="submit" class="button">Classic</button>
+        <button type="submit" class="button">Settings</button>
+        <button type="submit" class="button">Windows Emulator</button> -->
+
+			<!-- !Header -->
+			<header class="header"></header>
+
+			<!-- !Main -->
+			<main class="main">
+				<img
+					class="ibg"
+					src="./img/bg.webp"
+					alt=""
+					srcset=""
+				/>
+				<!-- !bg IMG -->
+				<div class="worktable">
+					<!-- <div class="window">
+                    <div class="window__header">
+                        <div class="window__header-name">Display Properties</div>
+                        <div class="window__header-buttons"><button class="btn window__header-button"><i class="fa-sharp fa-solid fa-question"></i></button><button class="btn window__header-button"><i class="fa-solid fa-xmark"></i></button></div>
+                    </div>
+                    <div class="window__body">
+                        <ul class="window__body-tabs">
+                            <li class="window__body-tab active-tab">Themes</li>
+                            <li class="window__body-tab">Desktop</li>
+                            <li class="window__body-tab">Screen Saver</li>
+                            <li class="window__body-tab">Appearance</li>
+                            <li class="window__body-tab">Settings</li>
+                        </ul>
+                        <div class="window__content">
+                            <h3 class="window__content-discription">
+                                At theme is a background plus a set of sounds, icons and other elements to help you personalize your computer with one click.
+                            </h3>
+                            <div class="window__content-control">
+                                <label class="window__content-control-label" for="theme">Theme:</label>
+                                <select name="theme" id="theme">
+                                    <option selected value="0">Windows XP</option>
+                                    <option value="1">Windows Vista</option>
+                                    <option value="2">Windows 7</option>
+                                    <option value="3">Windows 8</option>
+                                    <option value="4">Windows 8.1</option>
+                                    <option value="5">Windows 10 TP Build 9841</option>
+                                    <option value="6">Windows 10 TP Build 9926</option>
+                                    <option value="7">Windows 10 TP Build 10130</option>
+                                    <option value="8">Windows 10 RTM 1507</option>
+                                    <option value="9">Windows 10 1607</option>
+                                    <option value="10">Windows 10 1703</option>
+                                    <option value="11">Windows 10 1709</option>
+                                    <option value="12">Windows 10 1803</option>
+                                    <option value="13">Windows 10 1809</option>
+                                    <option value="14">Windows 10 1903</option>
+                                    <option value="15">Windows 10 1909</option>
+                                    <option value="16">Windows 10 2004</option>
+                                    <option value="17">Windows 10 20H1</option>
+                                    <option value="18">Windows 10 20H2</option>
+                                    <option value="19">Windows 10 21H1</option>
+                                    <option value="20">Windows 10 21H2</option>
+                                    <option value="21">Windows 11</option>
+                                    <option value="22">Windows 11 - 22H2</option>
+                                    <option value="23">Windows Longhorn - 3683</option>
+                                    <option value="24">Windows Longhorn - 3718</option>
+                                    <option value="25">Windows Longhorn - 4008</option>
+                                    <option value="26">Windows Longhorn - 4074</option>
+                                    <option value="27">Windows Longhorn - 4093</option>
+                                    <option value="28">Windows Longhorn - 5048</option>
+                                    <option value="29">Windows Vista Beta 1 - 5112</option>
+                                    <option value="30">Windows Vista - 5219</option>
+                                    <option value="31">Windows Vista - 5259</option>
+                                    <option value="32">Windows Vista Beta 2 - 5384</option>
+                                    <option value="33">Windows 8 Beta - 7700</option>
+                                    <option value="34">Windows 8 Beta - 7850</option>
+                                    <option value="35">Windows 8 Beta - 7955</option>
+                                    <option value="36">Windows 8 Beta - 7997</option>
+                                    <option value="37">Windows 8 Beta - 7989</option>
+                                    <option value="38">Windows 8 Beta - 8002</option>
+                                    <option value="39">Windows 8 Beta - 8032</option>
+                                    <option value="40">Windows 8 Beta - 8056</option>
+                                    <option value="41">Windows 8 Beta - 8102</option>
+                                    <option value="42">Windows 8 Beta - 8250</option>
+                                    <option value="43">Windows 8 Beta - 8400</option>
+                                    <option value="44">Windows NT 4.0</option>
+                                    <option value="45">Windows NT 5.0</option>
+                                    <option value="46">Windows 2000 Server</option>
+                                    <option value="47">Windows Server 2003</option>
+                                    <option value="48">Windows Server 2008</option>
+                                    <option value="49">Windows Server 2008 R2</option>
+                                    <option value="50">Windows Server 2012</option>
+                                    <option value="51">Windows Server 2012 R2</option>
+                                    <option value="52">Windows Server 2016</option>
+                                    <option value="53">Windows Server 2019</option>
+                                    <option value="54">Windows Server 2022</option>
+                                    <option value="55">MacOS 1</option>
+                                    <option value="56">MacOS 2</option>
+                                    <option value="57">MacOS 3</option>
+                                    <option value="58">MacOS 4</option>
+                                    <option value="59">MacOS 5</option>
+                                    <option value="60">MacOS 6</option>
+                                    <option value="61">MacOS 7</option>
+                                    <option value="62">MacOS 8</option>
+                                    <option value="63">MacOS 8.1</option>
+                                    <option value="64">MacOS 9</option>
+                                    <option value="65">MacOS X Cheetah</option>
+                                    <option value="66">MacOS X Puma</option>
+                                    <option value="67">MacOS X Jaguar</option>
+                                    <option value="68">MacOS X Panther</option>
+                                    <option value="69">MacOS X Tiger</option>
+                                    <option value="70">MacOS X Leopard</option>
+                                    <option value="71">MacOS X Snow Leopard</option>
+                                    <option value="72">MacOS X Lion</option>
+                                    <option value="73">MacOS X Mountain Lion</option>
+                                    <option value="74">MacOS X Mavericks</option>
+                                    <option value="75">macOS Yosemite</option>
+                                    <option value="76">macOS El Capitan</option>
+                                    <option value="77">macOS Sierra</option>
+                                    <option value="78">macOS High Sierra</option>
+                                    <option value="79">macOS Mojave</option>
+                                    <option value="80">macOS Catalina</option>
+                                    <option value="81">macOS Big Sur</option>
+                                    <option value="82">macOS Monterey</option>
+                                    <option value="83">macOS Ventura</option>
+                                    <option value="84">PB-DOS</option>
+                                    <option value="85">Progressbar 1</option>
+                                    <option value="86">Progressbar 2</option>
+                                    <option value="87">Progressbar 3.14</option>
+                                    <option value="88">Progressbar NOT 3.60</option>
+                                    <option value="89">Progressbar Chitown</option>
+                                    <option value="90">Progressbar 95</option>
+                                    <option value="91">Progressbar 95 plus</option>
+                                    <option value="92">Progressbar 98</option>
+                                    <option value="93">Progressbar Meme</option>
+                                    <option value="94">Progressbar 2000</option>
+                                    <option value="95">Progressbar Nepbar</option>
+                                    <option value="96">Progressbar Whisper</option>
+                                    <option value="97">Progressbar XB</option>
+                                    <option value="98">Progressbar Largehorn</option>
+                                    <option value="99">Progressbar Wista</option>
+                                    <option value="100">Progressbar 7</option>
+                                    <option value="101">Progressbar 81</option>
+                                    <option value="102">Progressbar 10</option>
+                                    <option value="103">Progressbar 1X</option>
+                                    <option value="104">Progressbar 11</option>
+                                    <option value="105">Progressbar NOT 4.0</option>
+                                    <option value="106">Progressbar NOT 4.0 Server</option>
+                                    <option value="107">Progressbar 2000 Server</option>
+                                    <option value="108">Progressbar Server 2002</option>
+                                    <option value="109">Progressbar Server 2005</option>
+                                    <option value="110">Progressbar Server 2007</option>
+                                    <option value="111">Progressbar Server 2081</option>
+                                    <option value="112">Progressbar Server 2011</option>
+                                    <option value="113">Progressbar Server 201X</option>
+                                    <option value="114">Progressbar Server 2021</option>
+                                    <option value="115">Windows Classic</option>
+                                </select>
+
+                                <button class="btn">Save As</button><button class="btn btn__disabled">Delete</button>
+                            </div>
+                            <label for="preview">Sample:</label>
+                            <div class="window__content-preview" name="preview">
+                                <img class="window__content-preview-img" src="./img/worktable/display/1.png" alt="Windows XP">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="window__footer">
+                        <div class="window__footer-buttons">
+                            <button class="btn">OK</button><button class="btn">Cancel</button><button class="btn btn__disabled">Apply</button>
+                        </div>
+                    </div>
+                </div> -->
+				</div>
+			</main>
+
+			<!-- !footer! -->
+			<footer class="footer">
+				<button
+					data-open-modal
+					class="footer__start-button"
+					type="submit"
+					id="buttonStartMenu"
+				>
+					<div class="footer__logo">
+						<img
+							src="./img/start.png"
+							alt=""
+							srcset=""
+						/>
+					</div>
+					<span class="footer__name">start</span>
+				</button>
+				<div class="footer__menu-start start-menu hide-modal">
+					<div class="start-menu__header">
+						<div class="start-menu__header-profile">
+							<img
+								src="./img/profileLogo.png"
+								alt="profile"
+							/>
+						</div>
+					</div>
+					<div class="start-menu__body body-start-menu">
+						<div class="body-start-menu__left left-menu-body">
+							<div class="left-menu-body__header">
+								<a href="https:google.com">Internet</a>
+								<a href="#">E-mail</a>
+							</div>
+							<div class="left-menu-body__main"></div>
+							<div class="left-menu-body__footer">
+								<a
+									href="#"
+									alt=""
+								>
+									<div class="triangle"></div>
+								</a>
+							</div>
+						</div>
+						<div class="body-start-menu__right right-menu-start">
+							<div class="right-menu-start__header">
+								<a href="#">my documents</a>
+								<a href="#">my pictures</a>
+								<a href="#">my music</a>
+								<a href="#">my computer</a>
+							</div>
+							<div class="right-menu-start__main">
+								<a href="#">control panel</a>
+							</div>
+							<div class="right-menu-start__footer">
+								<a href="#">help and Support</a>
+								<a href="#">search</a>
+								<a href="#">run...</a>
+							</div>
+						</div>
+					</div>
+					<div class="start-menu__footer footer-start-menu">
+						<button class="footer-start-menu__lock">
+							<img
+								src="img/icon-lock.png"
+								alt="lock"
+							/>
+						</button>
+						<button
+							data-open-modal
+							class="footer-start-menu__off"
+						>
+							<img
+								src="img/icon-off.png"
+								alt="off"
+							/>
+						</button>
+					</div>
+				</div>
+				<div class="footer__icons"></div>
+				<div class="footer__clock">
+					<div class="clock">
+						<div class="clock__top">
+							<div class="clock__item item-hours">
+								<span id="hours">00</span>
+							</div>
+							<div class="clock__item item-minutes">
+								<span id="minutes">00</span>
+							</div>
+						</div>
+						<div class="clock__bottom">
+							<div class="clock__item item-year">
+								<span id="year">0000</span>
+							</div>
+							<div class="clock__item item-month">
+								<span id="month">00</span>/
+							</div>
+							<div class="clock__item item-days"><span id="days">00</span></div>
+						</div>
+					</div>
+				</div>
+			</footer>
+			<div
+				data-open-modal
+				class="modal hide-modal"
+			>
+				<div class="shutdown">
+					<div class="shutdown__header header-shutdown">
+						<span class="header-shutdown__name">Turn off computer</span>
+						<img
+							class="header-shutdown__img"
+							src="img/start.png"
+							alt="start"
+						/>
+					</div>
+					<div class="shutdown__body body-shutdown">
+						<div class="body-shutdown__item">
+							<img
+								src="img/icon-standby.png"
+								alt="lock"
+							/>
+							<div>Stand By</div>
+						</div>
+						<div class="body-shutdown__item">
+							<img
+								src="img/icon-off.png"
+								alt="off"
+							/>
+							<div>Turn Off</div>
+						</div>
+						<div class="body-shutdown__item">
+							<img
+								src="img/icon-restart.png"
+								alt="restart"
+							/>
+							<div>Restart</div>
+						</div>
+					</div>
+					<div class="shutdown__footer">
+						<button data-close-modal>Cancel</button>
+					</div>
+				</div>
+			</div>
+		</div>
+		<script
+			src="https://kit.fontawesome.com/85f9ae51d5.js"
+			crossorigin="anonymous"
+		></script>
+		<script src="script.js"></script>
+	</body>
+</html>
+``
